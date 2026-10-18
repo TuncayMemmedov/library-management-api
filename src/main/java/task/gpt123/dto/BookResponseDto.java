@@ -2,11 +2,7 @@ package task.gpt123.dto;
 
 import jakarta.persistence.*;
 import lombok.*;
-import task.gpt123.entity.BookCopy;
-
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
 @Getter
