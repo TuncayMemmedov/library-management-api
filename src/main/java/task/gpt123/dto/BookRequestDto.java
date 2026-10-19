@@ -16,5 +16,8 @@ public class BookRequestDto {
     private String title;
 
     @Column(nullable = false)
+    private String author;
+
+    @Column(nullable = false)
     private BigDecimal price;
 }

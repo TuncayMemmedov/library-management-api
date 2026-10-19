@@ -24,10 +24,7 @@ public class BookCopy {
     @Column(nullable = false)
     private String status;
 
-    @Column(nullable = false)
-    private BigDecimal book;
-
     @ManyToOne
-    @JoinColumn(name = "book_id")
-    private Book bookies;
+    @JoinColumn(name = "book_id", nullable = false)
+    private Book book;
 }

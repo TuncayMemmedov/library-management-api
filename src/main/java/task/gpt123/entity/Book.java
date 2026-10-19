@@ -29,6 +29,6 @@ public class Book {
     @Column(nullable = false)
     private BigDecimal price;
 
-    @OneToMany(mappedBy = "Book")
+    @OneToMany(mappedBy = "book")
     private List<BookCopy> bookCopies = new ArrayList<>();
 }
